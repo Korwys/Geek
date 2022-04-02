@@ -101,9 +101,9 @@
 
 #Task 6
 
-def int_func():
-    user_answer = input("Введите слово: ").title()
-    print(user_answer)
+def int_func(text):
+    print(text.title())
+
 
 if __name__ == '__main__':
     # print(user3(name='Oleg', surname='Filipov', date='12.02.1990', city='Moscow', email="sfdsdf@gmail.com")) #Task 2
@@ -111,6 +111,6 @@ if __name__ == '__main__':
     # my_func(9,5,10) #Task 3
     # my_func(2, -3) #Task 4
     #  chick()
-    int_func()
+    int_func(input('Введите текст: '))
 
 
